@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Facilita el ancho y alto al trabajar con sistema de cajas */
+body{
+    font-family: 'Rubik', sans-serif;
+}
+/* Clases utilitarias */
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Header */
+.bg-header {
+    background-color: #004b23;
+    height: 18.75em;
+}
+.bg-navbar {
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 1.5em 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-brand{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.navbar-brand img {
+    width: 2em;
+    margin-bottom: 00.35em;  
+}
+.navbar-nav{
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.nav-link {
+    display: inline-block;
+    padding: 0.3em;
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover {
+    background-color: #ccff33;
+    color: black;
+    border-radius: 0.13em;
+}
+.greeting{
+    text-align: center;
+}
