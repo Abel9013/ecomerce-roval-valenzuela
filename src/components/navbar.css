@@ -63,3 +63,10 @@ body{
 .greeting{
     text-align: center;
 }
+.contador h3{
+    margin-left: 2.5rem;
+}
+.contador button{
+    margin-left: 3rem;
+    font-size: 1.5em;
+}
