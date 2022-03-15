@@ -9,8 +9,8 @@ import "./components/navbar.css";
 function App() {
   return (
     <>
-      <Navbar/ >
-      <ItemListContainer/ >
+      <Navbar />
+      <ItemListContainer greeting="Bienvenidos a nuestra tienda de gaming" />
     </>
   );
 }
